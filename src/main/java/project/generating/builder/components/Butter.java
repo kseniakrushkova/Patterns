@@ -8,6 +8,10 @@ public class Butter {
         this.grams = grams;
         this.isMelted = isMelted;
     }
+    public Butter() {
+        this.grams = 100;
+        this.isMelted = true;
+    }
 
     public int getGrams() {
         return grams;

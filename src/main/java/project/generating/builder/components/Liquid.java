@@ -8,6 +8,10 @@ public class Liquid {
         this.liquidType = liquidType;
         this.milliliters = milliliters;
     }
+    public Liquid() {
+        this.liquidType = LiquidType.MILK;
+        this.milliliters = 150;
+    }
 
     public LiquidType getLiquidType() {
         return liquidType;

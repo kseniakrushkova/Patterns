@@ -9,6 +9,10 @@ public class Eggs {
         this.isBeaten = isBeaten;
     }
 
+    public Eggs() {
+        this.quantity = 2;
+        this.isBeaten = true;
+    }
     public int getQuantity() {
         return quantity;
     }
